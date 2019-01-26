@@ -1,0 +1,239 @@
+
+input, textarea {
+	border: 1px solid #ccc;
+}
+
+.loading {
+	z-index: 100000;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff
+}
+
+.loading-data {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,0.4);
+}
+
+
+.random-pic-1920 {
+	background: #5d6f82 url(https://picsum.photos/1920/1280?random) center center;
+	background-size: cover;
+}
+
+
+.disable-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000000;
+}
+
+
+
+
+
+
+#userTotals img {
+	border: 7px solid #222;
+    box-sizing: content-box;
+}
+
+#userTotals .user h3 {
+	/*font-weight: bold;*/
+}
+
+#userTotals td.hours h3 {
+	padding-right: 0;
+}
+
+
+
+
+
+
+
+
+#timingCalendar {
+	font-size: 250%;
+	font-family: ProximaNova Light,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+#timingCalendar * {
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+#timingCalendar .ui-corner-all {
+	border: none;
+}
+
+#timingCalendar .ui-datepicker-header {
+	border:none;
+	font-weight: normal;
+}
+
+#timingCalendar .ui-datepicker-prev, 
+#timingCalendar .ui-datepicker-next {
+	top: 0;
+	height: 100%;
+}
+#timingCalendar .ui-datepicker-prev {
+	left: 0;
+} 
+#timingCalendar .ui-datepicker-next {
+	right: 0;
+}
+
+#timingCalendar .ui-datepicker-header .uk-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+	width: 30px;
+	height: 30px;
+}
+
+#timingCalendar .ui-datepicker-header .ui-datepicker-prev span,
+#timingCalendar .ui-datepicker-header .ui-datepicker-next span {
+	display: none;
+}
+
+#timingCalendar .ui-datepicker-calendar th {
+	width: 14%;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#timingCalendar .ui-datepicker-calendar td a,
+#timingCalendar .ui-datepicker-calendar td span {
+	text-align: center;
+	border: none;
+	font-size: 30px;
+	padding: 23px;
+}
+
+
+
+
+#timingListTable {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+}
+
+#timingListTable .date {
+	text-align: left; 
+}
+
+#timingListTable .hours {
+	text-align: right; 
+}
+
+/*
+#timingList date {
+	font-weight: bold;
+}
+#timingList hours {
+	float: right;
+}
+*/
+
+
+
+
+#modalDayTiming .uk-button {
+	margin-bottom: 4px;
+}
+
+#modalDayTiming .uk-button.uk-button-default {
+	background-color: #efefef;	
+}
+
+
+
+
+
+
+
+
+
+.uk-notification-message-success {
+    color: #fff;
+    background-color: #32d296;
+}
+
+.uk-notification-message-success .uk-close {
+	color: #fff;
+}
+
+.uk-notification-message-danger {
+    color: #fff;
+    background-color: #f0506e;
+}
+
+.uk-notification-message-danger .uk-close {
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+#modalAdminViewLog .uk-modal-body {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 70px;
+	overflow: auto;
+}
+
+
+#logTable {
+	width: 100% !important;
+	border: none;
+	border-spacing: 0;
+	font: 12px / 1.5 'Roboto Mono',monospace;
+}
+
+#logTable thead th {
+	text-align: left;
+	background-color: #222;
+	color: #fff;
+	padding: 4px 10px;
+	cursor: pointer;
+}
+
+#logTable tbody td {
+	padding: 4px 10px;
+}
+
+#logTable_filter {
+	float: right;
+	margin-bottom: 10px;
+}
+
+#logTable_filter input {
+	padding: 4px 10px;
+	margin-left: 10px;
+}

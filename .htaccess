@@ -1,0 +1,19 @@
+
+Options +FollowSymlinks
+Options -Indexes
+
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on
+
+	ErrorDocument 403 /404.php
+	ErrorDocument 404 /404.php
+
+	# Get API route
+	RewriteRule 	^api/(.*)$ 		api.php 	[L]
+
+	# Redirect to 404
+	RewriteRule 	^core/(.*)$ 	404.php 	[L]
+
+</IfModule>
