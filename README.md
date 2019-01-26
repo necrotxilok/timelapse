@@ -6,9 +6,9 @@ A full web application developed with PHP and HTML5 to manage the work time of t
 
 You can see a demo of the application here:
 
-<a href="http://timelapse-demo.ntkserver.com/" target="_blank">DEMO</a>
-
-> **User**: user - **Pass**: user
+| [DEMO](http://timelapse-demo.ntkserver.com/) |
+| -------------------------------------------- |
+| **User**: user - **Pass**: user              |
 
 Just login and save your everyday work progress ;)
 
@@ -47,6 +47,10 @@ Download or clone this repository into your web server folder.
 ```
 # git clone https://github.com/necrotxilok/timelapse.git
 ```
+
+***Enjoy it!***
+
+> First time you log into the application you can use the user '**admin**' and the pass '**admin**'.
 
 
 
@@ -146,3 +150,4 @@ If you like this project share it or invite me to a beer [here](https://paypal.m
 
 
 
+Developed by [necro_txilok](http://necrotxilok.github.io/) - 2018
