@@ -1,27 +1,16 @@
-![Timelapse-Logo](http://timelapse-demo.ntkserver.com/public/img/timelapse-logo.png)
-
 # Timelapse Web App
 
 A full web application developed with PHP and HTML5 to manage the work time of the participants in a single project.
 
-You can see a demo of the application here:
-
-| [DEMO](http://timelapse-demo.ntkserver.com/) |
-| -------------------------------------------- |
-| **User**: user - **Pass**: user              |
-
-Just login and save your everyday work progress ;)
-
-
 
 ## Screenshots
 
-![Screenshot1](http://timelapse-demo.ntkserver.com/screenshots/screen01.png)
+![Screenshot1](https://dchiloeches.com/public/projects/apps/timelapse/image01.jpg)
 
-| ![Screenshot2](http://timelapse-demo.ntkserver.com/screenshots/screen02.png) | ![Screenshot3](http://timelapse-demo.ntkserver.com/screenshots/screen03.png) |
+| ![Screenshot2](https://dchiloeches.com/public/projects/apps/timelapse/image02.jpg) | ![Screenshot3](https://dchiloeches.com/public/projects/apps/timelapse/image03.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![Screenshot4](http://timelapse-demo.ntkserver.com/screenshots/screen04.png) | ![Screenshot5](http://timelapse-demo.ntkserver.com/screenshots/screen05.png) |
-| ![Screenshot6](http://timelapse-demo.ntkserver.com/screenshots/screen06.png) | ![Screenshot7](http://timelapse-demo.ntkserver.com/screenshots/screen07.png) |
+| ![Screenshot4](https://dchiloeches.com/public/projects/apps/timelapse/image04.jpg) | ![Screenshot5](https://dchiloeches.com/public/projects/apps/timelapse/image05.jpg) |
+| ![Screenshot6](https://dchiloeches.com/public/projects/apps/timelapse/image06.jpg) | ![Screenshot7](https://dchiloeches.com/public/projects/apps/timelapse/image07.jpg) |
 
 
 
@@ -130,17 +119,15 @@ define('APPNAME', 'NewProjectName');
 
 You can also modify the styles of the entire application easily to fit with your project.
 
-![Custom Style 1](http://timelapse-demo.ntkserver.com/screenshots/custom01.png)
+![Custom Style 1](https://dchiloeches.com/public/projects/apps/timelapse/image11.jpg)
 
-![Custom Style 2](http://timelapse-demo.ntkserver.com/screenshots/custom02.png)
+![Custom Style 2](https://dchiloeches.com/public/projects/apps/timelapse/image12.jpg)
 
 
 
 ## Vendors
 
 The application was developed using a combination of the latest web technologies: php 7, SQLite 3, HTML5, UIKit 3 and jQuery.
-
-![Vendor Logos](http://timelapse-demo.ntkserver.com/vendors/logos.png)
 
 
 
